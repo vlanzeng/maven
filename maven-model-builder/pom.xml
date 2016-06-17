@@ -77,12 +77,14 @@
   </dependencies>
 
   <build>
+  <pluginManagement>
     <plugins>
       <plugin>
         <groupId>org.codehaus.plexus</groupId>
         <artifactId>plexus-component-metadata</artifactId>
       </plugin>
     </plugins>
+    </pluginManagement>
   </build>
 
 </project>

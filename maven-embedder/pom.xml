@@ -116,9 +116,10 @@
             </excludes>
           </configuration>
         </plugin>
-      </plugins>
-    </pluginManagement>
-    <plugins>
+     
+ 
+
+
       <plugin>
         <groupId>org.eclipse.sisu</groupId>
         <artifactId>sisu-maven-plugin</artifactId>
@@ -137,6 +138,7 @@
           </models>
         </configuration>
       </plugin>
-    </plugins>
+   </plugins>
+      </pluginManagement>
   </build>
 </project>

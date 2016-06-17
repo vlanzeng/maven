@@ -49,6 +49,7 @@ under the License.
   </dependencies>
 
   <build>
+  	<pluginManagement>
     <plugins>
       <plugin>
         <groupId>org.codehaus.modello</groupId>
@@ -83,6 +84,7 @@ under the License.
         </configuration>
       </plugin>
     </plugins>
+    </pluginManagement>
   </build>
 
   <profiles>
